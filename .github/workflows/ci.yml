@@ -1,0 +1,49 @@
+name: DSC Protocol CI/CD
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test-contracts:
+    name: 🧪 Test Smart Contracts
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/protocol
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install Foundry (for smart contract testing)
+        uses: foundry-rs/foundry-toolchain@v1
+        with:
+          version: nightly
+
+      - name: Run Foundry tests
+        run: forge test -vv
+
+  build-frontend:
+    name: 🚀 Build Frontend App
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/frontend
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build frontend
+        run: npm run build
