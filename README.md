@@ -81,7 +81,7 @@ forge test
 * ✅ Push to `main` triggers:
 
   * `forge test` (smart contracts)
-  * `npm run build` (frontend)
+  * `pnpm build` (frontend)
 * 🎯 Optional: Auto-deploy via Vercel or other hosts
 
 ---
