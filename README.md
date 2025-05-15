@@ -8,7 +8,7 @@ DSC Protocol is a fully decentralized, overcollateralized, cross-chain stablecoi
 
 ## 🌐 Live Preview (Frontend)
 
-[https://dsc-protocol-graphfieds-projects.vercel.app](https://dscprotocol.vercel.app) *(Coming Soon)*
+[https://dsc-protocol-graphfieds-projects.vercel.app](https://dsc-protocol-graphfieds-projects.vercel.app)
 
 ---
 
