@@ -62,14 +62,14 @@ DSC-Protocol/
 
 ```bash
 cd apps/frontend
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 ### 🔐 Smart Contracts
 
 ```bash
-cd apps/protocol
+cd apps/protocol/Blockchain-Foundry-StableToken
 forge build
 forge test
 ```
