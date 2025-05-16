@@ -88,9 +88,11 @@ forge test
 
 ## 👨‍💻 Contributors
 
-* **Yazib** — Founder, DSC Protocol
-* **Fahad Ghouri** — Co-Founder, AI + Smart Contracts Lead
-* **Muhammad Mehdi** — Co-Founder, Fullstack & Web3 Developer
+* **Yazib** — Founder of DSC and Blockchain Developer specializing in DeFi and smart contracts using Solidity, Rust, and multichain tools.
+* **Fahad Ghouri** — Founder of Pakverse and a builder at the intersection of AI, Web3, and innovation with 10 years of experience.
+* **Muhammad Mehdi** — Co-Founder & CTO of Pakverse, building scalable AI and Web3 solutions for the future.
+
+
 <!-- 
 ---
 
